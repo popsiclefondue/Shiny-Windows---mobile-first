@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #39A0ED;
+  }
+
+  h1 {
+    font-family: 'alfa slab one', sans-serif;
+  }
+
+  h2 {
+    font-family: 'zilla slab', serif;
+    font-size: 48px;
+    line-height: 48px;
+      }
+
+  p {
+    font-family: 'zilla slab', serif;
+    font-size: 12pt;
+    }
+
+  ul {
+    font-family: 'zilla slab', serif;
+    font-weight: bold;
+    font-size: 12pt;
+    }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    margin: 40px;
+  }
+
+  .logo {
+    background-color: none;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 40px;
+    padding: 40px 40px 0 40px;
+    }
+
+  .residential {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    font-family: 'zilla slab', serif;
+    color: white;
+    font-size: 72px;
+    }
+
+  .phone {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+    background-color: #FCF5C7;
+    font-family: 'alfa slab one', serif;
+    font-size: 56px;
+    color: black;
+    margin: 40px;
+    }
+
+  .credentials {
+    grid-column: 1;
+    grid-row: 4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 40px;
+    text-align: center;
+    background-color: #39A0ED;
+    color: white;
+    font-family: 'zilla slab', serif;
+    font-size: 28px;
+    }
+
+  .email {
+      grid-column: 1;
+      grid-row: 5;
+      text-align: center;
+      background-color: #f2f2f2;
+      font-family: 'zilla slab', serif;
+      font-size: 48px;
+      color: black;
+      margin: 40px;
+      padding:15px;
+    }
+
+  .services {
+    grid-column: 1;
+    grid-row: 6;
+    margin: 40px;
+    padding: 40px;
+    height: auto;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: black;
+    }
+
+  .about {
+    grid-column: 1;
+    grid-row: 7;
+    padding: 40px;
+    margin: 40px;
+    margin-bottom: 200px;
+    height: auto;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: black;
+    }
+
+.pix {
+      float: right;
+      width: auto;
+      height: auto;
+      }
+
+.pix > img {
+      border-radius: 50%;
+      border-style: solid;
+      border-color: #F4CAE0;
+      border-width: 10px;
+      margin: 10px;
+      }
+
+  .portland {
+    background-color: #FCF5C7;
+    padding: 30px;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: 'zilla slab', serif;
+    text-align: center;
+    color: black;
+    font-size: 24pt;
+    }
