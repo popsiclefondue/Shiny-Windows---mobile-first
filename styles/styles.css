@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Zilla+Slab:wght@400;600;700&display=swap');
+
 body {
     margin: 0;
     background-color: #39A0ED;
+    font-family: 'zilla slab', serif;
+    font-weight: 400;
     }
 
   h1 {
-    font-family: 'zilla slab', sans-serif;
+    font-family: 'zilla slab', serif;
   }
 
   h2 {
