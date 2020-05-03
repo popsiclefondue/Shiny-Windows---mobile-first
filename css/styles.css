@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Zilla+Slab:wght@400;600;700&display=swap');
+
+body {
+  background-color: #39A0ED;
+  font-family: 'zilla slab', serif;
+  margin-bottom: 100px;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:focus, a:hover {
+  border-bottom: 1px solid;
+}
+
+a:active {
+  color: red;
+}
+
+.logo {
+  background-color: none;
+}
+
+.logo img {
+  max-width: 600px;
+}
+
+.residential {
+  text-align: center;
+  color: white;
+}
+
+.phone {
+  text-align: center;
+  background-color: #FCF5C7;
+  font-family: 'alfa slab one', serif;
+  color: black;
+}
+
+.credentials {
+  text-align: center;
+  background-color: #39A0ED;
+  color: white;
+}
+
+.email {
+  text-align: center;
+  background-color: #FCF5C7;
+  font-family: 'alfa slab one', serif;
+  color: black;
+}
+
+.services {
+  height: auto;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.about {
+  height: auto;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.pix {
+  float: right;
+  width: auto;
+  height: auto;
+}
+
+.pix > img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #F4CAE0;
+  border-width: 3px;
+  width: 120px;
+}
+
+.portland {
+  background-color: #FCF5C7;
+  max-width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  font-family: 'zilla slab', serif;
+  text-align: center;
+  color: black;
+  line-height: 1rem;
+}
+
+.desk-footer {
+  background-color: #FCF5C7;
+  font-family: 'zilla slab', serif;
+  text-align: center;
+  color: black;
+  line-height: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    margin-bottom: 24px;
+  }
+
+  .pix img {
+    width: 165px;
+  }
+}
