@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Zilla+Slab:wght@400;600;700&display=swap');
 
 body {
-  background-color: #39A0ED;
+  background-color: white;
   font-family: 'zilla slab', serif;
   margin-bottom: 100px;
 }
@@ -41,26 +41,17 @@ a:active {
 
 .residential {
   text-align: center;
-  color: white;
+  color:black;
 }
 
 .phone {
   text-align: center;
-  background-color: #FCF5C7;
   font-family: 'alfa slab one', serif;
   color: black;
 }
 
 .credentials {
   text-align: center;
-  background-color: #39A0ED;
-  color: white;
-}
-
-.email {
-  text-align: center;
-  background-color: #FCF5C7;
-  font-family: 'alfa slab one', serif;
   color: black;
 }
 
@@ -82,9 +73,20 @@ a:active {
   float: right;
   width: auto;
   height: auto;
-}
+  padding-left: 10px;
+  }
 
 .pix > img {
+  width: 120px;
+}
+
+.pix2 {
+  float: right;
+  width: auto;
+  height: auto;
+}
+
+.pix2 > img {
   border-radius: 50%;
   border-style: solid;
   border-color: #F4CAE0;
@@ -93,7 +95,7 @@ a:active {
 }
 
 .portland {
-  background-color: #FCF5C7;
+  background-color: #9CCFF6;
   max-width: 100%;
   position: fixed;
   bottom: 0px;
@@ -106,7 +108,7 @@ a:active {
 }
 
 .desk-footer {
-  background-color: #FCF5C7;
+  background-color: #9CCFF6;
   font-family: 'zilla slab', serif;
   text-align: center;
   color: black;
