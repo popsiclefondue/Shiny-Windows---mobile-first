@@ -69,17 +69,11 @@ a:active {
   color: black;
 }
 
-.pix {
-  float: right;
-  width: auto;
+.diagram > img {
+  width: 300px;
   height: auto;
-  padding-left: 10px;
-  }
-
-.pix > img {
-  width: 120px;
+  margin-bottom: 20px;
 }
-
 .pix2 {
   float: right;
   width: auto;
