@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Zilla+Slab:wght@400;600;700&display=swap');
-
 body {
   background-color: white;
-  font-family: 'zilla slab', serif;
+  font-family: 'lato', sans-serif;
   margin-bottom: 100px;
 }
 
@@ -16,7 +14,7 @@ a {
 }
 
 a:link {
-  color: black;
+  color: blue;
 }
 
 a:visited {
@@ -47,7 +45,7 @@ a:active {
 .phone {
   text-align: center;
   font-family: 'alfa slab one', serif;
-  color: black;
+  color: blue;
 }
 
 .credentials {
